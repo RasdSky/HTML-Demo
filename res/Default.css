@@ -100,10 +100,39 @@ body
     left: 10%;
     transform: translate(-50%,-50%);
 }
+.lable_Tag
+{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%,-50%);
+}
+.lable_Tag_OnFocus
+{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.lable_Tag_UnFocus
+{
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
 .tab_Default
 {
     padding: 0px;
     margin: 0px;
     border: 0px;
     border-radius: 3px;
+}
+.tab_Tag_OnFocus
+{
+    bottom: 10%;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.tab_Tag_UnFocus
+{
+    bottom: 5%;
+    font-size: 20px;
+    color: rgb(80, 80, 80);
 }
